@@ -9,4 +9,4 @@ app.use('/signup',signup);
 
 app.listen(3000,function(){
     console.log("listining on port 3000")
-}).on('error', console.log("error in creating server at port 3000"));
+})
